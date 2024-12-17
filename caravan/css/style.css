@@ -1,0 +1,64 @@
+.top {
+  margin-top: 73px;
+}
+body {
+  font-family: "Garamond";
+  font-size: 1.2rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+.btn-outline-primary {
+  color: white;
+  background: #007bff;
+  border-radius: 10px;
+}
+.nav-link {
+  display: inline;
+}
+
+.dropdown-item:hover {
+  color: blue;
+}
+.bg-quote {
+  background: url("../img/bg-quote.jpg") center center;
+  background-size: cover;
+}
+.blockquote-footer {
+  font-size: 20px;
+}
+@media (max-width: 576px) {
+  .bg-quote .display-4 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .mag {
+    margin-bottom: 30px;
+  }
+}
+
+.menu_Ativo {
+  background-color: rgb(190, 178, 178);
+  border-radius: 10px;
+}
+.produtos h1 {
+  font-size: 40px;
+  margin: 0 10px 60px 10px;
+}
+.produtos-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.imgs {
+  align-items: flex-end;
+}
+.mt-2 {
+  color: #3769da;
+  font-size: 30px;
+}
